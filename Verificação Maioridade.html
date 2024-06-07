@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação Maioridade</title>
+</head>
+<body>
+    <h1>Verificação maioridade </h1>
+    <h2>
+        <p>
+            É possível realizar com dados contidos no JavaScript, bem como com dados inseridos pelo usuário.
+        </p>
+        
+    </h2>
+
+    <fieldset>
+        <h2><strong>Dados contidos no JavaScript</strong></h2>
+        <div>
+           <p id="numero-js"><strong>Idade inserida no JavaScript:</strong></p>
+        </div>
+
+        <div>
+            <p id="validacao-js"></p>
+        </div>
+
+        <button class="botao" id="idadeJS" onclick="idadeJS()">Verificar</button>
+    </fieldset>
+    
+    <br>
+
+    <fieldset>
+        <h2><strong>Dados inseridos pelo usuário</strong></h2><br>
+        <div>
+            <label><strong>Idade fornecida pelo usuário:</strong></label>
+            <input type="value" name="numero-usuario" id="numero-usuario" required>
+        </div>
+
+        <div>
+            <p id="validacao-usuario"></p>
+        </div>
+
+        <button class="botao" id="idadeUsuario" onclick="idadeUsuario()">Verificar</button>
+    </fieldset>
+    <script src="Verificação Maioridade.js"></script>
+</body>
+</html>
